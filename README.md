@@ -15,7 +15,7 @@ For creating a single package, use any package definition from the guix sources 
 
 
 _guix.pkg.yambar.scm_
-```
+```scm
 (define-module (yambar)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix gexp)
