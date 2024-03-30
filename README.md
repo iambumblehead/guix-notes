@@ -117,3 +117,11 @@ When everything looks good, send the patch
 git send-email --base=master --to="guix-patches@gnu.org" -1
 ```
 
+Subsequent changes or commit messages can be [amended later][10] and resent,
+```bash
+git add ./path/to/any-files-changed # not needed if only amending commit message
+git commit --amend
+```
+
+
+[10]: https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_git_amend
